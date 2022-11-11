@@ -1,14 +1,20 @@
 module.exports = {
+  env: {
+    node: true,
+  },
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
-    '@typescript-eslint'
+    '@typescript-eslint',
   ],
   root: true,
   rules: {
-    "indent": ['error', 2]
-  }
-};
+    "indent": ['error', 2],
+    "arrow-body-style": ["error", "as-needed"],
+    "semi": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+  },
+}
