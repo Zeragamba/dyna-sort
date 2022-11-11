@@ -1,0 +1,11 @@
+{
+  "name": "dyna-sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Zeragamba",
+    "email": "code@zeragamba.ca"
+  },
+  "description": "Dynamic sorters for arrays"
+}
