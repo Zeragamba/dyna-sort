@@ -1,0 +1,16 @@
+{
+  "name": "dyna-sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Zeragamba <code@zeragamba.ca",
+  "description": "Dynamic sorters for arrays",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0"
+  }
+}

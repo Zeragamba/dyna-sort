@@ -1,11 +1,16 @@
 {
-  "name": "dyna-sort",
-  "version": "1.0.0",
-  "main": "index.js",
+  "repository": "git@github.com:Zeragamba/dyna-sort.git",
+  "author": "Zeragamba <code@zeragamba.ca>",
   "license": "MIT",
-  "author": {
-    "name": "Zeragamba",
-    "email": "code@zeragamba.ca"
+  "private": true,
+  "scripts": {
+    "build": "lerna run build"
   },
-  "description": "Dynamic sorters for arrays"
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "dyna-sort",
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  }
 }
