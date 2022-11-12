@@ -1,7 +1,4 @@
 {
-  "repository": "git@github.com:Zeragamba/dyna-sort.git",
-  "author": "Zeragamba <code@zeragamba.ca>",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "lerna run build"
@@ -9,7 +6,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "dyna-sort",
   "devDependencies": {
     "lerna": "^6.0.3"
   }

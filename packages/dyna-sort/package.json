@@ -1,11 +1,11 @@
 {
   "name": "dyna-sort",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "author": "Zeragamba <code@zeragamba.ca>",
-  "repository": "git@github.com:Zeragamba/dyna-sort.git",
+  "repository": "https://github.com/Zeragamba/dyna-sort",
   "description": "Dynamic sorters for arrays",
   "scripts": {
     "lint": "eslint .",
