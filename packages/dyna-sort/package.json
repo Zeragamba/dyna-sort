@@ -1,20 +1,28 @@
 {
   "name": "dyna-sort",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
-  "author": "Zeragamba <code@zeragamba.ca",
+  "author": "Zeragamba <code@zeragamba.ca>",
+  "repository": "git@github.com:Zeragamba/dyna-sort.git",
   "description": "Dynamic sorters for arrays",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest ."
+    "test": "jest .",
+    "prepack": "scripts/prepack.sh",
+    "build": "rimraf ./dist && tsc"
   },
+  "files": [
+    "./dist"
+  ],
   "devDependencies": {
     "@types/jest": "^29.2.2",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
     "jest": "^29.3.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3"
   }
 }

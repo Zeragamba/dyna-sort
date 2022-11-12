@@ -13,8 +13,8 @@ module.exports = {
   root: true,
   rules: {
     "indent": ['error', 2],
-    "arrow-body-style": ["error", "as-needed"],
     "semi": ["error", "never"],
     "comma-dangle": ["error", "always-multiline"],
+    "prefer-arrow-callback": ["error"],
   },
 }
