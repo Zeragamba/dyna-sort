@@ -30,7 +30,7 @@ console.log(numbers.sort(sorter.decending())) //=> [5, 4, 3, 2, 1]
 
 /** .ascending() also takes a boolean to toggle direction **/
 console.log(numbers.sort(sorter.ascending(true))) //=> [1, 2, 3, 4, 5]
-console.log(numbers.sort(sorter.decending(false))) //=> [5, 4, 3, 2, 1]
+console.log(numbers.sort(sorter.ascending(false))) //=> [5, 4, 3, 2, 1]
 
 /** adds .nullsFirst() and .nullsLast() to handle where nulls should get moved in the list **/
 const nullNumbers: (null | number)[] = [5, 4, null, 3, null, 2, 1]
@@ -43,7 +43,7 @@ console.log(nullNumbers.sort(sorter.nullsFirst(false))) //=> [1, 2, 3, 4, 5, nul
 
 /** methods can be fully chained together for full control of the sorting **/
 console.log(nullNumbers.sort(sorter.decending().nullsFirst(true))) //=> [null, null, 5, 4, 3, 2, 1]
-console.log(nullNumbers.sort(sorter.nullsFirst(false))) //=> [1, 2, 3, 4, 5, null, null]
+console.log(nullNumbers.sort(sorter.nullsFirst(false).ascending())) //=> [1, 2, 3, 4, 5, null, null]
 
 ```
 
