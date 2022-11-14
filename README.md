@@ -1,4 +1,4 @@
-Dyna-Sort
+DynaSort
 =========
 Dynamic array sorters for JavaScript
 
