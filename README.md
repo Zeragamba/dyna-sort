@@ -2,6 +2,10 @@ DynaSort
 =========
 Dynamic array sorters for JavaScript
 
+Deprecated
+==========
+This library is not maintained, and should not be used. I recommend you use `fast-sort` instead
+
 Install
 -------
 
